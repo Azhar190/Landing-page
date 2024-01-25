@@ -176,7 +176,7 @@ body {
   align-items: flex-start;
   gap: 10px;
   display: inline-flex;
-}
+
 
 .inner-container {
   flex: 1 1 0;
@@ -187,7 +187,7 @@ body {
   align-items: flex-start;
   gap: 24px;
   display: flex;
-
+}
 
 & .image-container {
   width: 64px;
@@ -210,7 +210,7 @@ body {
   height: 64px;
 }
 
-.text-container {
+& .text-container {
   flex: 1 1 0;
   flex-direction: column;
   justify-content: flex-start;
@@ -284,6 +284,28 @@ body {
 }
 }
 
+/* Add your styles for slick arrows */
+.slick-slider {
+  height: 300px;
+  width: 945px;
+  margin-top: 150px;
+  margin-left: 135px;
+  margin-right: 125px;
+
+& .slick-prev:before, .slick-next:before {
+ display: none;
+}
 
 
+& .next-arrow, .prev-arrow {
+  position: relative;
+  bottom: 93px;
+}
 
+& .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 10px;
+}
+}

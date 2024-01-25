@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './index.scss';
 import React from 'react';
-
+import SlickCarousel from './Slickslider.js';
 
 
 function App() {
@@ -133,7 +133,9 @@ function App() {
     </div>
   </div>
 
-
+  <div className="App">
+      <SlickCarousel />
+    </div>
 </body>
 
   </>
