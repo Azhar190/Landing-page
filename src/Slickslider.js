@@ -5,28 +5,29 @@ import Slider from 'react-slick';
 
 function SlickCarousel () {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    autoplay: false,
   };
 
   return (
-    <Slider {...settings} className='slick-slider'>
-              <div className='slider-icon'>
-      <img src='/assets/mslogo.png' alt='Microsoft-icon' style={{position: 'relative', left: '68px', bottom: '100px', marginTop: '30px'}} width='280' height='310'/>
+    <Slider {...settings} className='slick-slider' style={{height:'300px'}}>
+    <div className='slider-icon' >
+      <img src='/assets/mslogo1.png' alt='Microsoft-icon' style={{position: 'relative', left: '65px', marginTop: '92px', bottom: '60px'}} width='100%' height='83'/>
       </div>
       <div className='slider-icon'>
-        <img src='/assets/Twitter-icon.svg' alt='Twitter-icon'/>
+        <img src='/assets/Twitter-icon.svg' alt='Twitter-icon'  style={{marginTop: '35px'}}/>
       </div>
       <div className='slider-icon'>
-      <img src='/assets/cocacola.png' alt='cocacola-icon' style={{position: 'relative', right: '60px', bottom: '100px'}} width='330' height='370'/>
+      <img src='/assets/cocacola1.png' alt='cocacola-icon' style={{position: 'relative', right: '60px', marginTop: '60px', bottom: '55px'}} width='100%' height='155'/>
       </div>
       <div className='slider-icon'>
-      <img src='/assets/Twitter-icon.svg' alt='Twitter-icon'/>
+      <img src='/assets/Twitter-icon.svg' alt='Twitter-icon' style={{marginTop: '35px'}}/>
       </div>
     </Slider>
   );

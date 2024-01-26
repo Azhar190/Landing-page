@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './index.scss';
 import React from 'react';
 import SlickCarousel from './Slickslider.js';
+import RegistrationForm from './form.js';
 
 
 function App() {
@@ -24,24 +25,24 @@ function App() {
 </div>
 
 
-<div className='image-container'>
-<div className='image-section-right'>
-<div style={{width: 604.88, height: 669, left: 596.12, top: 0, position: 'absolute'}}>
-    <img style={{width: 572.74, height: 632, left: 0, top: 46, position: 'absolute'}} src="/assets/image1.png" />
-    <div style={{width: 576.64, height: 669, left: 28.25, top: 0, position: 'absolute'}}>
-        <div style={{width: 29.22, height: 30, left: 143.18, top: 70, position: 'absolute', background: '#46B0E6', borderRadius: 9999}} />
-        <div style={{width: 29.22, height: 30, left: 516.25, top: 318, position: 'absolute', background: '#F89D21', borderRadius: 9999}} />
-        <div style={{width: 29.22, height: 30, left: 263.97, top: 639, position: 'absolute', background: '#F0B80D', borderRadius: 9999}} />
-        <div style={{width: 19.48, height: 20, left: 0, top: 153, position: 'absolute', background: '#F0B80D', borderRadius: 9999}} />
-        <div style={{width: 19.48, height: 20, left: 36.04, top: 648, position: 'absolute', background: '#5380EA', borderRadius: 9999}} />
-        <div style={{width: 19.48, height: 20, left: 514.30, top: 483, position: 'absolute', background: '#E49192', borderRadius: 9999}} />
-        <div style={{width: 19.48, height: 20, left: 557.16, top: 173, position: 'absolute', background: '#F0B80D', borderRadius: 9999}} />
-        <div style={{width: 19.48, height: 20, left: 358.45, top: 0, position: 'absolute', background: '#E49192', borderRadius: 9999}} />
+<div className='main-container'>
+      <div className='container-wrapper'>
+        <img className='top-image' src="/assets/image1.png" alt="Investment-Image" />
+        <div className='overlay'>
+          <div className='circle'></div>
+          <div className='circle'></div>
+          <div className='circle'></div>
+          <div className='circle'></div>
+          <div className='circle'></div>
+          <div className='circle'></div>
+          <div className='circle'></div>
+          <div className='circle'></div>
+        </div>
+      </div>
     </div>
-</div>
-</div>
 
-<div className='image-section-left'>
+
+
   <div className='vector-container'>
  <h1>Lorem ipsum <span className=" Vector-text"> <span style={{ color: '#46B0E6' }}>dolor</span> <svg className="vector-image" xmlns="/assets/vector.svg" width="126" height="11" viewBox="0 0 126 11" 
  fill="none"><path d="M2.04198 8.50584C24.8536 4.70635 81.1524 -1.34187 123.855 4.86114" stroke="#F89D21" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -75,8 +76,7 @@ function App() {
 
 <div className='empty-box' style={{position: 'relative', bottom: '23px'}}></div>
 
-</div>
-</div><br/><br/>
+
 
 
 
@@ -121,20 +121,44 @@ function App() {
   </div>
 </div>
 
-<div class="site-container">
-    <div class="title-container">
-      <div class="site-title">Trusted by</div>
-      <div class="imagee-container">
+<div className="site-container">
+    <div className="title-container">
+      <div className="site-title">Trusted by</div>
+      <div className="imagee-container">
   <img src="/assets/vector2.svg" alt="Vector image"/>
 </div>
     </div>
-    <div class="site-description">
+    <div className="site-description">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.
     </div>
-  </div>
+  
 
-  <div className="App">
+  <div className="slider-section">
       <SlickCarousel />
+    </div>
+    </div>
+
+
+    <div className="last-container" style={{display: 'flex'}}>
+      <div className="img-container">
+        <img
+          className="main-image" src="/assets/image2.png" alt="Image"/>
+        <div className="overlay">
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+        </div>
+      </div>  
+    
+
+      <div className="app">
+      <RegistrationForm />
+    </div>
     </div>
 </body>
 
