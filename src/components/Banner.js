@@ -2,7 +2,7 @@ const Banner = () => (
   <section className="banner">
     <div className="container">
       <div className="row">
-        <div className="col-12 col-sm-6 p-0">
+        <div className="col-12 col-sm-6">
           <div className='vector-container'>
             <h1>Lorem ipsum <span className="Vector-text"> <span style={{ color: '#46B0E6' }}>dolor</span>
                 <svg className="vector-image" xmlns="/assets/vector.svg" width="126" height="11" viewBox="0 0 126 11"

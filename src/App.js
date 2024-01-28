@@ -6,6 +6,7 @@ import Support from './components/supportbox.js';
 import TrustText from './components/Trusttext.js';
 import SlickCarousel from './components/Slickslider.js';
 import RegistrationForm from './components/form.js';
+import Footer from './components/footer.js';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <TrustText/>
       <SlickCarousel/>
       <RegistrationForm />
+      <Footer/>
   </>
    );
 }

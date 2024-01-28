@@ -4,6 +4,8 @@
 // Reset CSS
 @import './base/reset.scss';
 
+@import 'bootstrap-scss';
+
 /****** Components ******/
 
 // Header
@@ -18,8 +20,5 @@
 @import './components/slider.scss';
 //form
 @import './components/form.scss';
-
-
-@import 'bootstrap-scss';
-
-
+//footer 
+@import './components/footer.scss'

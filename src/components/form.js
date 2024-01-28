@@ -95,13 +95,14 @@ const RegistrationForm = () => {
     <div className="form-container">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-sm-6">
+          <div className="col-12 col-md-6">
             <div className='img-container'>
               <div className="img-fluid">
-                <img className='top-image' src="/assets/image1.png" alt="Investment" />
+                <img className='top-image img-fluid' src="/assets/image1.png" alt="Investment" />
               </div>
             </div>
-
+          </div>
+          <div className="col-12 col-md-6">
             <div className='registration-form'>
               <form onSubmit={handleSubmit}>
                 <h1><strong>Registration</strong></h1>
@@ -131,8 +132,10 @@ const RegistrationForm = () => {
             </div>
           </div>
         </div>
+        <div className='hr-line'><hr/></div>
       </div>
     </div>
+    
   );
 };
 

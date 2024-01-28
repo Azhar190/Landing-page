@@ -3,11 +3,12 @@
 .slide-container {
     width: 100%;
     box-sizing: border-box;
+    padding-bottom: 95px;
 
 .slick-slider {
     margin: 58px 160px 0px 153px;
-    max-width: 100%; 
-    
+    max-width: 100%;
+
 .slick-prev:before, .slick-next:before {
    display: none;
   }
@@ -22,26 +23,25 @@
 .slider-icon {
     display: flex;
     margin: -6px 12px 0px 13px;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    padding: 0 10px; 
+    padding: 0 10px;
 }
 .slider-icon:last-child img {
-     margin-right: 0; 
+     margin-right: 0;
     }
   }
   }
-    
+
     .slick-slide {
       display: flex;
       margin-top: 5px;
-      
+
     }
     .slider-icon {
       display: flex !important;
       align-items: center;
       padding: 2rem;
-    
+
     }
-    
-  
+

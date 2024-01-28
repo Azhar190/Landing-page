@@ -1,24 +1,24 @@
 /* Section Four Trust Text CSS */
 .Text-container {
   text-align: center;
+  padding: 95px 0 0;
 
   .site-title {
     color: black;
-    padding: 95px 0 0;
     font-size: 36px;
     font-weight: 800;
     word-wrap: break-word;
   }
   img, svg {
     margin-bottom: 10px;
-    
+
 }
 .slick-prev:before, .slick-next:before {
   display: none;
  }
   .site-description {
     text-align: center;
-    
+
     line-height: 1.2em;
     word-wrap: break-word;
   }

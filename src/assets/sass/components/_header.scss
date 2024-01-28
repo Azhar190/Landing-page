@@ -4,13 +4,21 @@
 .header {
 
   .header-wrapper {
-    display: flex;
-    align-items: center;
-    padding: 14px 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    @include media-breakpoint-up('md') {
+      display: flex;
+      align-items: center;
+    }
   }
 
   .logo {
     margin-right: auto;
+    padding-bottom: 1rem;
+    @include media-breakpoint-up('md') {
+        padding-bottom: 0;
+    }
 
     img {
       width: 55px;
@@ -20,17 +28,20 @@
   }
 
   & .main-nav {
-    display: flex;
     list-style: none;
     padding: 0;
-    margin: 0; 
-    align-items: center;
-    gap: 26px;
+    margin: 0;
+
+    @include media-breakpoint-up('md') {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+    }
 
    & ul li {
       float: right;
       list-style: none;
-      
+
     }
 
     li {
