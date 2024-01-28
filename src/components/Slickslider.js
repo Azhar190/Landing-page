@@ -16,9 +16,18 @@ function SlickCarousel() {
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1,      
           slidesToScroll: 1,
           variableWidth: false,
+          centerPadding: '0',
+        },
+      },
+      {
+        breakpoint: 480,      
+        settings: {
+          slidesToShow: 1,      
+          slidesToScroll: 1,
+          variableWidth: true, 
           centerPadding: '0',
         },
       },
@@ -35,7 +44,7 @@ function SlickCarousel() {
           <img src='/assets/Twitter-icon.svg' alt='Twitter-icon'/>
         </div>
         <div className='slider-icon'>
-          <img src='/assets/cokeicon.png' alt='cocacola-icon'/>
+          <img src='/assets/cokeicon.png' alt='coke-icon'/>
         </div>
         <div className='slider-icon'>
           <img src='/assets/Twitter-icon.svg' alt='Twitter-icon'/>

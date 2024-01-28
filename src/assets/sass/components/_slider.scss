@@ -44,4 +44,10 @@
       padding: 2rem;
 
     }
-
+    @media (max-width: 767px) {
+        .slick-slider {
+            width: 82%;
+            position: relative;
+            right: 118px;
+        }
+        }
