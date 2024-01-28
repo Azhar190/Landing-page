@@ -1,0 +1,25 @@
+/****** Default Confgirations ******/
+// Variables
+@import './base/vairables.scss';
+// Reset CSS
+@import './base/reset.scss';
+
+/****** Components ******/
+
+// Header
+@import './components/header.scss';
+// Banner
+@import './components/banner.scss';
+// supportbox
+@import './components/supportbox.scss';
+//TrustText
+@import './components/trusttext.scss';
+//Slider
+@import './components/slider.scss';
+//form
+@import './components/form.scss';
+
+
+@import 'bootstrap-scss';
+
+

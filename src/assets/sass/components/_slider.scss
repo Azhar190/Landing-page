@@ -1,0 +1,47 @@
+/* Slick Slider CSS */
+
+.slide-container {
+    width: 100%;
+    box-sizing: border-box;
+
+.slick-slider {
+    margin: 58px 160px 0px 153px;
+    max-width: 100%; 
+    
+.slick-prev:before, .slick-next:before {
+   display: none;
+  }
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    margin: -6px 12px 0px 13px;
+    display: block;
+    width: 25px;
+    height: 25px;
+  }
+.slider-icon {
+    display: flex;
+    margin: -6px 12px 0px 13px;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 10px; 
+}
+.slider-icon:last-child img {
+     margin-right: 0; 
+    }
+  }
+  }
+    
+    .slick-slide {
+      display: flex;
+      margin-top: 5px;
+      
+    }
+    .slider-icon {
+      display: flex !important;
+      align-items: center;
+      padding: 2rem;
+    
+    }
+    
+  
